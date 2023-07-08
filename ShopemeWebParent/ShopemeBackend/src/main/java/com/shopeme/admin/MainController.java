@@ -7,6 +7,6 @@ public class MainController {
 
     @GetMapping("")
     public String getHomeView(){
-        return "index";
+        return "users";
     }
 }
